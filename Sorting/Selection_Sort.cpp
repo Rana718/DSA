@@ -3,16 +3,16 @@
 using namespace std;
 void Selection_sort(int arr[], int n){
     for(int i=0; i<n-1; i++){
-        
+        int min_index = i;
         for(int j=i+1; j<n; j++){
-            int min = arr[i];
-            if(min>arr[j]){
-                min = arr[j];
-                int temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
+            if(arr[j] < arr[min_index]){
+                min_index = j;
             }
         }
+        int temp = arr[min_index];
+        arr[min_index] = arr[i];
+        arr[i] = temp;
+
     }
 }
 void display(int arr[], int n){
