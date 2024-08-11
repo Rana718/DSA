@@ -26,6 +26,8 @@ A **tree** is a widely used abstract data type that simulates a hierarchical tre
 - **Balanced Tree**: A tree where the height difference between left and right subtrees for any node is no more than one.
 - **Full Tree**: A tree where every node has 0 or 2 children.
 - **Complete Tree**: A binary tree where all levels are completely filled except possibly for the last level, which is filled from left to right.
+- **Heap Tree**: A complete binary tree that satisfies the heap property, where in a **Max Heap**, the value of each node is greater than or equal to the values of its children, and in a **Min Heap**, the value of each node is less than or equal to the values of its children.
+ 
 
 ## 🔍 Applications of Trees
 - **Hierarchical Data Representation**: Organizational structures, file systems.
