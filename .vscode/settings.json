@@ -1,7 +1,7 @@
 {
-    "files.associations": {
-        "iostream": "cpp",
-        "vector": "cpp",
-        "utility": "cpp"
-    }
+        "files.associations": {
+                "iostream": "cpp",
+                "vector": "cpp",
+                "utility": "cpp"
+        }
 }
