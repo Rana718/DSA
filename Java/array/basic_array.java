@@ -1,4 +1,4 @@
-
+package Java.array;
 import java.util.Scanner;
 
 public class basic_array {
