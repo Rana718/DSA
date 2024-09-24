@@ -1,7 +1,8 @@
+
 import java.util.Scanner;
 
 public class basic_array {
-    public static void main(String[] args) {
+    public static void main() {
         // Create a Scanner object for reading input
         Scanner sc = new Scanner(System.in);
 
