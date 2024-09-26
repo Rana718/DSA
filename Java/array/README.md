@@ -34,6 +34,10 @@ Imagine you are a teacher managing a class of 30 students. You want to store and
 
 In this scenario, an array helps the teacher efficiently manage and manipulate the grades of all students, ensuring quick access and updates, while also keeping the memory usage optimized.
 
+## Disadvantage of Arrays 😕
+
+Arrays have fixed sizes, leading to inefficient memory usage. They require contiguous memory allocation, making resizing difficult. Inserting or deleting elements can be costly, as it often involves shifting elements. Thus the solution for this problem is LinkedList. 
+
 ## Conclusion 🎓
 
 Arrays in Java are a fundamental tool when dealing with a fixed set of data elements of the same type. Their simplicity, speed, and efficiency make them ideal for scenarios where the number of elements is known in advance and won't change. Understanding arrays is crucial for effective programming, especially when dealing with large, fixed collections of data.
