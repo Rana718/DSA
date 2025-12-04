@@ -1,1 +1,3 @@
 python/.venv/
+
+*.exe
